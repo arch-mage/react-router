@@ -1,4 +1,5 @@
 {
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "files": {
     "ignore": ["build/**/*", ".react-router/**/*", "node_modules/**/*"]
   },
@@ -32,6 +33,8 @@
         "noUnusedVariables": "warn"
       },
       "suspicious": {
+        "noArrayIndexKey": "warn",
+        "noConsoleLog": "warn",
         "noEmptyInterface": "off",
         "noExplicitAny": "off"
       },
