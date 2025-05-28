@@ -1,0 +1,48 @@
+{
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "lint": {
+    "rules": {
+      "exclude": [
+        "no-sloppy-imports"
+      ]
+    }
+  },
+  "compilerOptions": {
+    "allowJs": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "checkJs": false,
+    "erasableSyntaxOnly": true,
+    "jsx": "react-jsx",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2022"
+    ],
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "useUnknownInCatchVariables": true,
+    "rootDirs": [".", "./.react-router/types"],
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictBuiltinIteratorReturn": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "types": ["vite/client"],
+    "verbatimModuleSyntax": true
+  },
+  "unstable": [
+    "sloppy-imports"
+  ]
+}

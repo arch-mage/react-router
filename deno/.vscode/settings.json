@@ -1,0 +1,13 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.removeUnusedImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "deno.enable": true,
+  "deno.lint": false,
+  "files.exclude": {
+    "**/build": true,
+    "**/.react-router": true
+  }
+}
