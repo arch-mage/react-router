@@ -1,3 +1,3 @@
 # react-router
 
-Simple template for react-router 7
+Templates for react-router 7
